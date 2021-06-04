@@ -1,0 +1,44 @@
+.box{
+    margin: 10px;
+    text-align: center;
+}
+.option{
+    margin: 10px;
+    text-align: center;
+    height: 40px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+button {
+    border: goldenrod 2px solid;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    background-color: goldenrod;
+    color: black;
+    font-family: "Times New Roman", "Songti SC", "Microsoft Yahei", sans-serif;
+    font-size: medium;
+    margin: 5px auto;
+    display: inline;
+}
+
+button:active {
+    opacity: 50%;
+}
+
+button:disabled {
+    opacity: 30%;
+}
+
+button:hover:enabled {
+    background-color: gold;
+}
+
+canvas{
+    display: block;
+    margin: 0px auto;
+}
